@@ -20,23 +20,21 @@ body{
 
 /* SEZIONE BANNER */
 
-#banner{
-    background-color: #1abc9c;
+#banner {
+    padding-top: 90px;
+    background-color: #58B99D;
     color: #fff;
-    height: 500px;
+    text-align: center;
 }
 
-.container img{
-    width: 20%;
-    margin-top: 50px;
+#banner img {
+    width: 100%;
+    margin-bottom: 20px;    
 }
 
-
-
-
-
-
-
+p {
+    font-size: 1rem;
+}
 
 
 /* SECTION PORTFOLIO */
