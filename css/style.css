@@ -22,7 +22,20 @@
 
 #portfolio{
     background-color: #fff;
-    height: 300px;
+}
+
+.port-container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.port-card{
+    margin: 15px 0;
+}
+
+.port-card img {
+    width: 100%;
+    border-radius: 10px;
 }
 
 /* SECTION ABOUT */
