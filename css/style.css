@@ -111,12 +111,40 @@ p {
     color: white;
 }
 
+#exampleFormControlInput1{
+    border: 0;
+    border-bottom: 1px solid var(--bs-border-color);
+    border-radius: 0;
+    padding: 10px 0;
+}
+
 /* SECTION NAV */
 
 #nav{
     background-color: #3a546d;
     color: #fff;
-    height: 200px;
+}
+
+.cont-nav{
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+span a{
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.circle{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* SECTION COPYRIGHT */
@@ -124,5 +152,10 @@ p {
 #copyright{
     background-color: #2c3e50;
     color: #fff;
-    height: 100px;
+}
+
+.cont-copy{
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px 0;
 }
